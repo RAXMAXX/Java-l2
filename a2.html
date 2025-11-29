@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Also Nothing</title>
+</head>
+<body>
+    <h1>Local Paramiter</h1>
+    
+    <button type="button" onclick="fun1()"> Click Not Here</button>
+    <p id="id1"></p>
+    <p id="id2"></p>
+    <p id="id3"></p>
+    <p id="id4"></p>
+    <script>
+        var n1=10;
+        function fun1(){
+            var n2=20
+            document.getElementById("id1").innerHTML=n1;
+            document.getElementById("id2").innerHTML =n2;
+        }
+        document.getElementById("id3").innerHTML = n1;
+        document.getElementById("id4").innerHTML = n2;
+        </script>
+</body>
+</html>
